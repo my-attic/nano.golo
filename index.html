@@ -1,76 +1,146 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Nano.golo by k33g</title>
+    <title>[nano.Golo]</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+</head>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Nano.golo</h1>
-        <p>List of stupendous nano-frameworks written in Golo for fun</p>
+<body style="visibility:hidden">
 
-        <p class="view"><a href="https://github.com/k33g/nano.golo">View the Project on GitHub <small>k33g/nano.golo</small></a></p>
+    <div class="container-fluid">
+        <div class="hero-unit" style="padding-top:15px; padding-bottom:15px;">
+            <h1>n'Golo</h1>
+            <h4>aka nano.Golo &#10084; <i>3nl4rg3 your community</i></h4>
+            <h2>Stupendous nano-frameworks written in <a href="http://golo-lang.org/">Golo</a> for fun.</h2>
+            <h5>completely inspired by <a href="http://microjs.com/">MicroJS</a></h5>
+            <span>Want to add your own? Fork this site on GitHub, add your framework to data.js and submit a pull request.</span>
+            <h4>&#10172; Gists accepted</h4>
+        </div>
+        <p class="view"><a href="https://github.com/k33g/nano.golo">View and Fork the Project on GitHub <small>k33g/nano.golo</small></a></p>
+        <!-- template -->
+        <script type="text/template" id="rubrics_tpl">
+            <% _.each(rubrics, function(rubric) { %>
+            <div class="span4">
+                <h2><%= rubric.label %></h2>
+
+                <hr>
+                <% _.each(rubric.frameworks, function(framework) { %>
+                    <h4><%= framework.name %></h4>
+                    <span class="label label-inverse">by <%= framework.author %></span>
 
 
-        <ul>
-          <li><a href="https://github.com/k33g/nano.golo/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/k33g/nano.golo/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/k33g/nano.golo">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
+                        <% _.each(framework.tags, function(tag) { %>
+                            <span class="label label-info">
+                                <%= tag %>
+                            </span>
+                        <% }); %>
+                    <br>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+                    <span><%= framework.description %></span><br>
+                    <span><a href="<%= framework.url %>">Go to <%= framework.name %></a></span><br>
+                <% }); %>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>Designer Templates</h3>
+            </div>
+            <% }); %>
+        </script>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+        <div class="row-fluid" id="rubrics"></div>
 
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/k33g">k33g</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-11383603-10");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
 
-  </body>
+
+    <script src="js/vendors/jquery-1.9.1.min.js"></script>
+    <script src="js/vendors/underscore-min.js"></script>
+    <script src="js/vendors/backbone-min.js"></script>
+
+
+    <script src="https://raw.github.com/k33g/nano.golo/master/data.js"></script>
+
+    <script>
+        window.nGolo = {
+            Framework : Backbone.Model.extend({}),
+            Frameworks : Backbone.Collection.extend({
+                model : this.Framework
+            }),
+            Rubric  : Backbone.Model.extend({}),
+            Rubrics : Backbone.Collection.extend({
+                model: this.Rubric,
+                initialize : function () {
+                    for(var m in nanoGolo){
+
+                        var tmpFrameworks = new nGolo.Frameworks()
+
+                        _.each(nanoGolo[m], function(frameworkFields){
+                            console.log(frameworkFields)
+                            tmpFrameworks.add(new nGolo.Framework(frameworkFields))
+                        })
+
+                        this.add(new nGolo.Rubric({
+                            label : m, frameworks : tmpFrameworks.toJSON()
+                        }))
+                    }
+                }
+            }),
+            RubricsView : Backbone.View.extend({
+                el: $("#rubrics"),
+                initialize : function() {
+                    this.template = _.template($("#rubrics_tpl").html());
+                    //_.bindAll(this, "render");
+                    //this.collection.bind("change", this.render);
+                },
+                render : function() {
+
+                    //var content = this.template({rubrics:this.collection.toJSON()});
+                    //$(this.el).html(content);
+                    this.$el.html(
+                            this.template({
+                                rubrics:this.collection.toJSON()
+                            })
+                    );
+                    return this;
+                }
+            })
+
+
+        }
+
+
+        $(function (){
+
+            window.rubrics = new nGolo.Rubrics()
+            window.rubricsView = new nGolo.RubricsView({ collection : rubrics })
+
+            rubricsView.render()
+
+            $("body").css("visibility","visible");  /*<body style="visibility:hidden">*/
+
+        });
+
+    </script>
+
+    <style>
+        body {
+            margin: 20px;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-11383603-10']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+</body>
 </html>
