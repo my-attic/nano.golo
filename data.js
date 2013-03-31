@@ -42,6 +42,15 @@ window.nanoGolo = {
             url         : "https://github.com/k33g/fastforward",
             tags        : ["web", "server", "nosql"]
         }
+    ],
+    TOOLS : [
+        {
+            name        : "GoGolo.sh",
+            author      : "k33g",
+            description : "Run your golo scripts easily (even with jar dependencies)",
+            url         : "https://github.com/k33g/gogolo",
+            tags        : ["tools", "shell"]
+        }
     ]
 }
 
