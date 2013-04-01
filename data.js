@@ -57,7 +57,14 @@ window.nanoGolo = {
             description : "Run your golo scripts easily (even with jar dependencies)",
             url         : "https://github.com/k33g/gogolo",
             tags        : ["tools", "shell"]
-        }
+        },
+        {
+            name        : "Golo on OSX",
+            author      : "rlespinasse",
+            description : "OSX Integration for Golo",
+            url         : "https://github.com/rlespinasse/golo-on-osx",
+            tags        : ["tools", "shell", "osx", "homebrew"]
+         }
     ]
 }
 
