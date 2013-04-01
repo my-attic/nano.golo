@@ -41,6 +41,13 @@ window.nanoGolo = {
             description : "Web application server with Redis database 4 Single Page Applications ... or more",
             url         : "https://github.com/k33g/fastforward",
             tags        : ["web", "server", "nosql"]
+        },
+        {
+            name        : "GoloHttpServer",
+            author      : "TitiMoby",
+            description : "Simple Http server written with Golo",
+            url         : "https://github.com/titimoby/GoloHttpServer",
+            tags        : ["tools","web", "server"]
         }
     ],
     TOOLS : [
