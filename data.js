@@ -29,15 +29,6 @@ window.nanoGolo = {
             tags        : ["tools", "shell", "linux", "rpm"]
          }
     ],    
-    DSL : [
-        {
-            name        : "Glloq",
-            author      : "k33g",
-            description : "Little DSL for little kids",
-            url         : "https://gist.github.com/k33g/5119019",
-            tags        : ["dsl","kids"]
-        }
-    ],
     TDD : [
         {
             name        : "FooBarGolo",
@@ -55,15 +46,6 @@ window.nanoGolo = {
         }
 
     ],
-    CONSOLE : [
-        {
-            name        : "Rainbow",
-            author      : "k33g",
-            description : "Colors in the terminal",
-            url         : "https://gist.github.com/k33g/5231688",
-            tags        : ["console","terminal","println"]
-        }
-    ],
     "WEB FRAMEWORKS" : [
         {
             name        : "Fast!>>forward",
@@ -79,6 +61,24 @@ window.nanoGolo = {
             url         : "https://github.com/titimoby/GoloHttpServer",
             tags        : ["tools","web", "server"]
         }
-    ]
+    ],
+    DSL : [
+        {
+            name        : "Glloq",
+            author      : "k33g",
+            description : "Little DSL for little kids",
+            url         : "https://gist.github.com/k33g/5119019",
+            tags        : ["dsl","kids"]
+        }
+    ],    
+    CONSOLE : [
+        {
+            name        : "Rainbow",
+            author      : "k33g",
+            description : "Colors in the terminal",
+            url         : "https://gist.github.com/k33g/5231688",
+            tags        : ["console","terminal","println"]
+        }
+    ]    
 
 }
