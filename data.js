@@ -1,4 +1,34 @@
 window.nanoGolo = {
+    TOOLS : [
+        {
+            name        : "GoGolo.sh",
+            author      : "k33g",
+            description : "Run your golo scripts easily (even with jar dependencies)",
+            url         : "https://github.com/k33g/gogolo",
+            tags        : ["tools", "shell"]
+        },
+        {
+            name        : "Golo on OSX",
+            author      : "rlespinasse",
+            description : "OSX Integration for Golo",
+            url         : "https://github.com/rlespinasse/golo-on-osx",
+            tags        : ["tools", "shell", "osx", "homebrew"]
+         },
+        {
+            name        : "Golo source RPM package",
+            author      : "hgomez",
+            description : "RPM sources for Golo",
+            url         : "https://github.com/hgomez/devops-incubator/tree/master/rpm-packaging/golo-lang",
+            tags        : ["tools", "shell", "linux", "rpm"]
+         },
+        {
+            name        : "Golo binary RPMs",
+            author      : "hgomez",
+            description : "Binary RPMs for Golo",
+            url         : "http://dl.bintray.com/content/hgomez/devops-incubator-rpm/",
+            tags        : ["tools", "shell", "linux", "rpm"]
+         }
+    ],    
     DSL : [
         {
             name        : "Glloq",
@@ -49,35 +79,6 @@ window.nanoGolo = {
             url         : "https://github.com/titimoby/GoloHttpServer",
             tags        : ["tools","web", "server"]
         }
-    ],
-    TOOLS : [
-        {
-            name        : "GoGolo.sh",
-            author      : "k33g",
-            description : "Run your golo scripts easily (even with jar dependencies)",
-            url         : "https://github.com/k33g/gogolo",
-            tags        : ["tools", "shell"]
-        },
-        {
-            name        : "Golo on OSX",
-            author      : "rlespinasse",
-            description : "OSX Integration for Golo",
-            url         : "https://github.com/rlespinasse/golo-on-osx",
-            tags        : ["tools", "shell", "osx", "homebrew"]
-         },
-        {
-            name        : "Golo source RPM package",
-            author      : "hgomez",
-            description : "RPM sources for Golo",
-            url         : "https://github.com/hgomez/devops-incubator/tree/master/rpm-packaging/golo-lang",
-            tags        : ["tools", "shell", "linux", "rpm"]
-         },
-        {
-            name        : "Golo binary RPMs",
-            author      : "hgomez",
-            description : "Binary RPMs for Golo",
-            url         : "http://dl.bintray.com/content/hgomez/devops-incubator-rpm/",
-            tags        : ["tools", "shell", "linux", "rpm"]
-         }
     ]
+
 }
