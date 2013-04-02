@@ -64,11 +64,20 @@ window.nanoGolo = {
             description : "OSX Integration for Golo",
             url         : "https://github.com/rlespinasse/golo-on-osx",
             tags        : ["tools", "shell", "osx", "homebrew"]
+         },
+        {
+            name        : "Golo source RPM package",
+            author      : "hgomez",
+            description : "RPM sources for Golo",
+            url         : "https://github.com/hgomez/devops-incubator/tree/master/rpm-packaging/golo-lang",
+            tags        : ["tools", "shell", "linux", "rpm"]
+         },
+        {
+            name        : "Golo binary RPMs",
+            author      : "hgomez",
+            description : "Binary RPMs for Golo",
+            url         : "http://dl.bintray.com/content/hgomez/devops-incubator-rpm/",
+            tags        : ["tools", "shell", "linux", "rpm"]
          }
     ]
 }
-
-
-
-
-
