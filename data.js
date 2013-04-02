@@ -60,6 +60,13 @@ window.nanoGolo = {
             description : "Simple Http server written with Golo",
             url         : "https://github.com/titimoby/GoloHttpServer",
             tags        : ["tools","web", "server"]
+        },
+        {
+            name        : "Vertx Golo",
+            author      : "vietj",
+            description : "Vertx Golo",
+            url         : "https://github.com/vietj/vertx-golo",
+            tags        : ["web", "vertx", "server"]
         }
     ],
     DSL : [
