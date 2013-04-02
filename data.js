@@ -48,7 +48,7 @@ window.nanoGolo = {
     ],
     "WEB FRAMEWORKS" : [
         {
-            name        : "Fast!>>|forward",
+            name        : "Fast! >>| forward",
             author      : "k33g",
             description : "Web application server with Redis database 4 Single Page Web Applications ... or more",
             url         : "https://github.com/k33g/fastforward",
