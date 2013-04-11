@@ -27,7 +27,7 @@
 
                 <hr>
                 <% _.each(rubric.frameworks, function(framework) { %>
-                    <h4><%= framework.name %></h4>
+                    <h4><a href="<%= framework.url %>"><%= framework.name %></a></h4>
                     <span class="label label-inverse">by <%= framework.author %></span>
 
 
