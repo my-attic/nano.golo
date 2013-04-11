@@ -27,6 +27,13 @@ window.nanoGolo = {
             description : "Binary RPMs for Golo",
             url         : "http://dl.bintray.com/content/hgomez/devops-incubator-rpm/",
             tags        : ["tools", "shell", "linux", "rpm"]
+         },
+          {
+            name        : "Jenkins CI Golo Plugin",
+            author      : "danielpetisme",
+            description : "Let you invoke Golo code in a Jenkins CI",
+            url         : "https://github.com/jenkinsci/golo-plugin",
+            tags        : ["tools", "jenkins", "ci", "plugin"]
          }
     ],    
     TDD : [
