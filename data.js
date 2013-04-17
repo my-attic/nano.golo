@@ -13,28 +13,35 @@ window.nanoGolo = {
             description : "OSX Integration for Golo",
             url         : "https://github.com/rlespinasse/golo-on-osx",
             tags        : ["tools", "shell", "osx", "homebrew"]
-         },
+        },
         {
             name        : "Golo source RPM package",
             author      : "hgomez",
             description : "RPM sources for Golo",
             url         : "https://github.com/hgomez/devops-incubator/tree/master/rpm-packaging/golo-lang",
             tags        : ["tools", "shell", "linux", "rpm"]
-         },
+        },
         {
             name        : "Golo binary RPMs",
             author      : "hgomez",
             description : "Binary RPMs for Golo",
             url         : "http://dl.bintray.com/content/hgomez/devops-incubator-rpm/",
             tags        : ["tools", "shell", "linux", "rpm"]
-         },
+        },
           {
             name        : "Jenkins CI Golo Plugin",
             author      : "danielpetisme",
             description : "Let you invoke Golo code in a Jenkins CI",
             url         : "https://github.com/jenkinsci/golo-plugin",
             tags        : ["tools", "jenkins", "ci", "plugin"]
-         }
+        },
+        {
+            name        : "JGolo",
+            author      : "k33g",
+            description : "JGolo is a (experimental) class loader for Golo. It discovers all golo scripts of your project. You can use it as library or as external launcher",
+            url         : "https://github.com/k33g/gogolo",
+            tags        : ["tools", "library", "shell"]
+        }         
     ],    
     TDD : [
         {
