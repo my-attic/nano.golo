@@ -39,7 +39,7 @@ window.nanoGolo = {
             name        : "JGolo",
             author      : "k33g",
             description : "JGolo is a (experimental) class loader for Golo. It discovers all golo scripts of your project. You can use it as library or as external launcher",
-            url         : "https://github.com/k33g/gogolo",
+            url         : "https://github.com/k33g/jgolo",
             tags        : ["tools", "library", "shell"]
         }         
     ],    
