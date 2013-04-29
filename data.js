@@ -100,6 +100,22 @@ window.nanoGolo = {
             url         : "https://gist.github.com/k33g/5231688",
             tags        : ["console","terminal","println"]
         }
-    ]    
+    ],    
+    EXPERIMENTAL : [
+        {
+            name        : "KGolo",
+            author      : "k33g",
+            description : "Java in memory compilation from Golo",
+            url         : "https://github.com/k33g/kgolo",
+            tags        : ["dirty","experimental","java"]
+        },
+        {
+            name        : "DynoGolo",
+            author      : "k33g",
+            description : "DynamicProxy with Golo",
+            url         : "https://github.com/k33g/DynoGolo",
+            tags        : ["pattern","experimental","java"]
+        }        
+    ]        
 
 }
