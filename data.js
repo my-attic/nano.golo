@@ -50,6 +50,36 @@ window.nanoGolo = {
             tags        : ["tools"]
         }                
     ], 
+    "WEB FRAMEWORKS" : [
+        {
+            name        : "Fast! >>| forward",
+            author      : "k33g",
+            description : "Web application server with Redis database 4 Single Page Web Applications ... or more",
+            url         : "https://github.com/k33g/fastforward",
+            tags        : ["web", "server", "nosql"]
+        },
+        {
+            name        : "GoloHttpServer",
+            author      : "TitiMoby",
+            description : "Simple Http server written with Golo",
+            url         : "https://github.com/titimoby/GoloHttpServer",
+            tags        : ["tools","web", "server"]
+        },
+        {
+            name        : "Vertx Golo",
+            author      : "vietj",
+            description : "Vertx Golo",
+            url         : "https://github.com/vietj/vertx-golo",
+            tags        : ["web", "vertx", "server"]
+        },
+        {
+            name        : "Fast!2",
+            author      : "k33g",
+            description : "Web application server with Spark Java and propulsed by Golo",
+            url         : "https://github.com/k33g/Fast20",
+            tags        : ["web", "server"]
+        }        
+    ],    
     IDE : [
         {
             name        : "Golo-netbeans",
@@ -89,36 +119,6 @@ window.nanoGolo = {
             tags        : ["tests","dsl"]
         }
 
-    ],
-    "WEB FRAMEWORKS" : [
-        {
-            name        : "Fast! >>| forward",
-            author      : "k33g",
-            description : "Web application server with Redis database 4 Single Page Web Applications ... or more",
-            url         : "https://github.com/k33g/fastforward",
-            tags        : ["web", "server", "nosql"]
-        },
-        {
-            name        : "GoloHttpServer",
-            author      : "TitiMoby",
-            description : "Simple Http server written with Golo",
-            url         : "https://github.com/titimoby/GoloHttpServer",
-            tags        : ["tools","web", "server"]
-        },
-        {
-            name        : "Vertx Golo",
-            author      : "vietj",
-            description : "Vertx Golo",
-            url         : "https://github.com/vietj/vertx-golo",
-            tags        : ["web", "vertx", "server"]
-        },
-        {
-            name        : "Fast!2",
-            author      : "k33g",
-            description : "Web application server with Spark Java and propulsed by Golo",
-            url         : "https://github.com/k33g/Fast20",
-            tags        : ["web", "server"]
-        }        
     ],
     DSL : [
         {
