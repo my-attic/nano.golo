@@ -41,8 +41,38 @@ window.nanoGolo = {
             description : "JGolo is a (experimental) class loader for Golo. It discovers all golo scripts of your project. You can use it as library or as external launcher",
             url         : "https://github.com/k33g/jgolo",
             tags        : ["tools", "library", "shell"]
-        }         
-    ],    
+        },
+        {
+            name        : "GVM the Groovy enVironment Manager",
+            author      : "danielpetisme",
+            description : "GOVM is yet another tool for managing parallel Versions of multiple Software Development Kits on any Unix based system.",
+            url         : "https://github.com/danielpetisme/govm",
+            tags        : ["tools"]
+        }                
+    ], 
+    IDE : [
+        {
+            name        : "Golo-netbeans",
+            author      : "davidfestal",
+            description : "Netbeans module to support the Golo language",
+            url         : "https://github.com/golo-lang/golo-netbeans",
+            tags        : ["netbeans", "ide"]
+        },
+        {
+            name        : "Gldt",
+            author      : "jeffmaury",
+            description : "Golo Language Development Tools (Eclipse)",
+            url         : "https://github.com/jeffmaury/gldt",
+            tags        : ["eclipse", "ide"]
+        },
+        {
+            name        : "Sublime-Golo",
+            author      : "k33g",
+            description : "Golo Syntax Definition for Sublime Text 2",
+            url         : "https://github.com/k33g/sublime-golo",
+            tags        : ["sublimetext", "ide"]
+        }                       
+    ],
     TDD : [
         {
             name        : "FooBarGolo",
@@ -81,7 +111,14 @@ window.nanoGolo = {
             description : "Vertx Golo",
             url         : "https://github.com/vietj/vertx-golo",
             tags        : ["web", "vertx", "server"]
-        }
+        },
+        {
+            name        : "Fast!2",
+            author      : "k33g",
+            description : "Web application server with Spark Java and propulsed by Golo",
+            url         : "https://github.com/k33g/Fast20",
+            tags        : ["web", "server"]
+        }        
     ],
     DSL : [
         {
