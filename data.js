@@ -48,7 +48,21 @@ window.nanoGolo = {
             description : "GOVM is yet another tool for managing parallel Versions of multiple Software Development Kits on any Unix based system.",
             url         : "https://github.com/danielpetisme/govm",
             tags        : ["tools"]
-        }                
+        },
+        {
+            name        : "Champollion",
+            author      : "k33g",
+            description : "A generic lexer (tokenizer), with a little parser",
+            url         : "https://github.com/k33g/champollion",
+            tags        : ["tools"]
+        },
+        {
+            name        : "Bozzo",
+            author      : "k33g",
+            description : "Json parser written in Golo",
+            url         : "https://github.com/k33g/bozzo",
+            tags        : ["tools"]
+        }                   
     ], 
     "WEB FRAMEWORKS" : [
         {
@@ -78,7 +92,14 @@ window.nanoGolo = {
             description : "<b>(deprecated)</b> Web application server with Spark Java and propulsed by Golo",
             url         : "https://github.com/k33g/Fast20",
             tags        : ["web", "server"]
-        }        
+        },
+        {
+            name        : "Nandou",
+            author      : "k33g",
+            description : "http dsl to create Golo web applications (express like)",
+            url         : "https://github.com/k33g/nandou",
+            tags        : ["web", "server"]
+        }          
     ],    
     IDE : [
         {
@@ -131,12 +152,20 @@ window.nanoGolo = {
     ],    
     CONSOLE : [
         {
-            name        : "Rainbow",
+            name        : "(<b>draft</b>) Rainbow (gist version)",
             author      : "k33g",
             description : "Colors in the terminal",
             url         : "https://gist.github.com/k33g/5231688",
             tags        : ["console","terminal","println"]
-        }
+        },
+        {
+            name        : "Rainbow",
+            author      : "k33g",
+            description : "Colors in the terminal",
+            url         : "https://github.com/k33g/rainbow",
+            tags        : ["console","terminal","println"]
+        }       
+        
     ],    
     EXPERIMENTAL : [
         {
