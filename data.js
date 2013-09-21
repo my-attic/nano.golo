@@ -54,7 +54,7 @@ window.nanoGolo = {
         {
             name        : "Fast! >>| forward",
             author      : "k33g",
-            description : "Web application server with Redis database 4 Single Page Web Applications ... or more",
+            description : "<b>(deprecated)</b> Web application server with Redis database 4 Single Page Web Applications ... or more",
             url         : "https://github.com/k33g/fastforward",
             tags        : ["web", "server", "nosql"]
         },
@@ -75,7 +75,7 @@ window.nanoGolo = {
         {
             name        : "Fast!2",
             author      : "k33g",
-            description : "Web application server with Spark Java and propulsed by Golo",
+            description : "<b>(deprecated)</b> Web application server with Spark Java and propulsed by Golo",
             url         : "https://github.com/k33g/Fast20",
             tags        : ["web", "server"]
         }        
